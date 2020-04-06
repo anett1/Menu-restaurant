@@ -12,7 +12,7 @@ class Root extends React.Component {
   render() {
     return (
       <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div className="wrapper">
             <Switch>
               <Route path="/" exact component={InvitationView} />
