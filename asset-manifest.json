@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Menu-restaurant/static/css/main.1cd9a4ed.chunk.css",
+    "main.js": "/Menu-restaurant/static/js/main.13686ea5.chunk.js",
+    "main.js.map": "/Menu-restaurant/static/js/main.13686ea5.chunk.js.map",
+    "runtime-main.js": "/Menu-restaurant/static/js/runtime-main.ab0aae7c.js",
+    "runtime-main.js.map": "/Menu-restaurant/static/js/runtime-main.ab0aae7c.js.map",
+    "static/js/2.b253eea0.chunk.js": "/Menu-restaurant/static/js/2.b253eea0.chunk.js",
+    "static/js/2.b253eea0.chunk.js.map": "/Menu-restaurant/static/js/2.b253eea0.chunk.js.map",
+    "static/css/3.792babab.chunk.css": "/Menu-restaurant/static/css/3.792babab.chunk.css",
+    "static/js/3.479ddd0f.chunk.js": "/Menu-restaurant/static/js/3.479ddd0f.chunk.js",
+    "static/js/3.479ddd0f.chunk.js.map": "/Menu-restaurant/static/js/3.479ddd0f.chunk.js.map",
+    "index.html": "/Menu-restaurant/index.html",
+    "precache-manifest.ebe1f6464cd8af02ae07ced0e264926d.js": "/Menu-restaurant/precache-manifest.ebe1f6464cd8af02ae07ced0e264926d.js",
+    "service-worker.js": "/Menu-restaurant/service-worker.js",
+    "static/css/3.792babab.chunk.css.map": "/Menu-restaurant/static/css/3.792babab.chunk.css.map",
+    "static/css/main.1cd9a4ed.chunk.css.map": "/Menu-restaurant/static/css/main.1cd9a4ed.chunk.css.map",
+    "static/js/2.b253eea0.chunk.js.LICENSE.txt": "/Menu-restaurant/static/js/2.b253eea0.chunk.js.LICENSE.txt",
+    "static/media/chickenburger.png": "/Menu-restaurant/static/media/chickenburger.701748e7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab0aae7c.js",
+    "static/js/2.b253eea0.chunk.js",
+    "static/css/main.1cd9a4ed.chunk.css",
+    "static/js/main.13686ea5.chunk.js"
+  ]
+}
