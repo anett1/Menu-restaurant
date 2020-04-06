@@ -1,0 +1,11 @@
+@import "./variable.scss";
+
+.categoryItems {
+  margin-top: $main-spacing;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,47 @@
+@import "./variable.scss";
+
+//@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap&subset=latin-ext");//
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-family;
+  font-size: $small-font-size;
+  color: $color-primary;
+
+  @media screen and (min-width: map-get($breakpoints, xs)) {
+    font-size: $base-font-size;
+  }
+}
+
+strong {
+  font-size: 700;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: $main-spacing/2;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-bottom: $main-spacing/2;
+}
+
+p {
+  font-size: 0.85rem;
+  margin-bottom: $main-spacing/2;
+}
+
+a {
+  text-decoration: none;
+  color: $color-primary;
+}

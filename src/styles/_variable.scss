@@ -1,0 +1,27 @@
+$base-font-size: 16px;
+$small-font-size: 14px;
+
+$font-family: "Montserrat", sans-serif;
+
+$main-spacing: 20px;
+$max-width: 1024px;
+
+$color-primary: rgb(80, 80, 80);
+$color-secondary: #c11f2c;
+
+$breakpoints: (
+  xs: 550px,
+  sm: 800px,
+  md: 1000px
+);
+
+@keyframes slowShow {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(100%);
+  }
+}

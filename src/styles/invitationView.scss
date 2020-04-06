@@ -1,0 +1,25 @@
+@import "./variable.scss";
+
+.InvitationViewWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  animation: slowShow 0.4s ease;
+
+  & .logo {
+    width: 50%;
+
+    & img {
+      width: 100%;
+    }
+  }
+  & .enterYourTableNumber {
+    height: 20px;
+    & p {
+      color: $color-secondary;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import "./variable.scss";
+
+.HeaderMenuItemsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  & .logo {
+    width: 15%;
+    & img {
+      width: 100%;
+    }
+  }
+  & .HeaderMenuItemsButton {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    & h4 {
+      margin-top: 10px;
+      display: flex;
+    }
+    & span.quantity {
+      display: inline-block;
+      background: white;
+      border-radius: 50%;
+      color: $color-secondary;
+      width: 20px;
+      height: 20px;
+      padding: 3px;
+      font-size: 0.8rem;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+@import "./variable.scss";
+
+.menuItem {
+  width: 100%;
+  box-shadow: 0px 0px 5px lighten($color-primary, 40%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: $main-spacing;
+  animation: slowShow 0.4s ease;
+  .boxPhoto {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    flex-basis: 100%;
+
+    @media screen and (min-width: map-get($breakpoints, xs)) {
+      flex-basis: 25%;
+    }
+    min-height: 130px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: $main-spacing/2;
+    img {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
+  .boxDescription {
+    flex-basis: 100%;
+
+    @media screen and (min-width: map-get($breakpoints, xs)) {
+      flex-basis: 50%;
+    }
+    text-align: left;
+    padding: $main-spacing/2;
+  }
+  .boxAdd {
+    flex-basis: 100%;
+
+    @media screen and (min-width: map-get($breakpoints, xs)) {
+      flex-basis: 25%;
+    }
+
+    min-height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*button {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: $color-secondary;
+      color: white;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: 0.2s;
+      &:hover {
+        background: darken($color-secondary, 10%);
+      }
+    }*/
+  }
+}

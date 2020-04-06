@@ -1,0 +1,47 @@
+@import "./variable.scss";
+
+.preloader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.8s;
+  height: 100vh;
+}
+.doc {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background: gray;
+  animation: show-hide 1s ease infinite;
+}
+.doc:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.doc:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes show-hide {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*.preloader-hidding {
+  opacity: 0;
+}
+.preloader-hidden {
+  display: none;
+}*/
